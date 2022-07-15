@@ -1,9 +1,9 @@
 h1 {
-    color: orange; font-size: 65px; font-family: sans-serif; font-weight: 600;
+    color: rgba(59, 68, 77, 1); font-size: 65px; font-family: sans-serif; font-weight: 600;
 
 }
 ul {
-    background-color:orange;
+    background-color:rgba(44, 61, 77, 1)
 
 }
 .corpul {
@@ -14,11 +14,11 @@ body {
     font-size: 16px; font-style: italic; line-height: 30px; text-align: center;
 }
 #item1 {
-    background-color: yellow;
+    background-color: rgba(184, 198, 212, 1);
 }
 #item2 {
-    background-color: red;
+    background-color: rgba(116, 162, 204, 1)
 }
 #item3 {
-    background-color: brown;
+    background-color: rgba(87, 121, 153, 1)
 }
