@@ -1,7 +1,7 @@
 //if - se
 //else - senão
 
-const nota = 59;
+const nota = 75;
 
 
 
@@ -12,13 +12,6 @@ if (nota >= 80) {
 }else{
     console.log("Você foi reprovado.");
 }
-
-
-
-
-
-
-
 
 
 
