@@ -1,7 +1,12 @@
-let pilotosDeF1 = document.getElementsByClassName("piloto-f1-atual");
+let pilotos = document.getElementsByClassName('piloto-f1-atual');
 
-for (let i = 0; i < pilotosDeF1.length; i++){
-    pilotosDeF1[i].innerText = "É Bota do Dragão powrra";
+for (let i = 0; i < 2; i++){
+    pilotos[i].style.color = 'red';
 }
 
-document.getElementsByClassName("lenda")[0].innerText = "Não é nemediano"
+let pilotostag = document.getElementsByTagName('p');
+
+for (let i = 0; i <= pilotostag.length; i++){
+    pilotostag[i].style.color = 'red';
+    pilotostag[i].innerText = 'Olar';
+}
